@@ -1,0 +1,18 @@
+.text {
+    text-shadow:
+      1px 1px 0 red,
+      1px -1px 0 red,
+      -1px 1px 0 red,
+      -1px -1px 0 red;
+    color: whitesmoke;
+    font-size: 30pt;
+    transition: all 1s;
+  }
+  
+ .text:hover {
+    text-shadow:
+      1px 1px 0 darkgreen,
+      1px -1px 0 darkgreen,
+      -1px 1px 0 darkgreen,
+      -1px -1px 0 darkgreen;
+    }
